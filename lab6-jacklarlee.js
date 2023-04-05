@@ -29,6 +29,10 @@ function drawFood(x, y, color) {
 
   } else{
     ellipse(x,y,30);
+    ellipse(x+100,y+100,50);
+    ellipse(x+100,y+20,50);
+    ellipse(x-100,y-20,50);
+    ellipse(x-50,y-20,50);
   }
   }
     pop();
